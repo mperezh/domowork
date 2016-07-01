@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Domótica | Manuel Pérez</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/informacion.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
+  </head>
+  <body>
+    <script>
+      new WOW().init();
+    </script>
+
+      <header>
+        <div id="fecha"></div>
+        <div class="banner" id="bg7"></div>
+
+        <nav>
+          <div class="nav-wrapper">
+            <div class="container">
+              <a href="index.html" class="brand-logo">DomoWork</a>
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a class="waves-effect waves-light" href="introduccion.html">Introduccion</a></li>
+                <li><a class="waves-effect waves-light" href="resena.html">Reseña Historica</a></li>
+                <li><a class="waves-effect waves-light" href="importancia.html">Importancia</a></li>
+                <li><a class="waves-effect waves-light" href="actualidad.html">Actualidad</a></li>
+                <li><a class="waves-effect waves-light" href="contacto.html">Contacto</a></li>
+                <li><a class="waves-effect waves-light" href="trivia.html">Trivia</a></li>
+              </ul>
+              <ul class="side-nav" id="mobile-demo">
+                <li><a class="waves-effect waves-light" href="introduccion.html">Introduccion</a></li>
+                <li><a class="waves-effect waves-light" href="resena.html">Reseña Historica</a></li>
+                <li><a class="waves-effect waves-light" href="importancia.html">Importancia</a></li>
+                <li><a class="waves-effect waves-light" href="actualidad.html">Actualidad</a></li>
+                <li><a class="waves-effect waves-light" href="contacto.html">Contacto</a></li>
+                <li><a class="waves-effect waves-light" href="trivia.html">Trivia</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <div class="container">
+          <section id="presentacion">
+            <h3 class="center wow fadeInDown">Trivia</h3>
+          </section>
+
+          <section id="trivia">
+            <form id="form" action="#" method="get" id="form" onsubmit="return valoracion()">
+              <div class="test">
+                <h5>¿La domótica es?</h5>
+
+                <input name="radio1" type="radio" id="p11" value="0" />
+                <label for="p11">Una red social</label>
+                <input name="radio1" type="radio" id="p12" value="1" />
+                <label for="p12">La incorporación de la tecnología a nuestros hogares</label>
+                <input name="radio1" type="radio" id="p13" value="0" />
+                <label for="p13">Un sistema de seguridad bancaria</label>
+
+              </div>
+              <div class="test">
+                <h5>¿Cómo trabaja un sistema domótico?</h5>
+
+                <input name="radio2" type="radio" id="p21" value="1" />
+                <label for="p21">Recoge información, la procesa y emite ordenes</label>
+                <input name="radio2" type="radio" id="p22" value="0" />
+                <label for="p22">Controlar tu casa de manera aleatoria</label>
+                <input name="radio2" type="radio" id="p23" value="0" />
+                <label for="p23">A través de la voz</label>
+
+              </div>
+              <div class="test">
+                <h5>¿La domótica se aplica en?</h5>
+
+                <input name="radio3" type="radio" id="p31" value="0" />
+                <label for="p31">Los hospitales</label>
+                <input name="radio3" type="radio" id="p32" value="0" />
+                <label for="p32">Edificios empresariales</label>
+                <input name="radio3" type="radio" id="p33" value="1" />
+                <label for="p33">El hogar</label>
+
+              </div>
+              <div class="test">
+                <h5>¿En que año se inicia la domótica?</h5>
+
+                <input name="radio4" type="radio" id="p41" value="0" />
+                <label for="p41">1980</label>
+                <input name="radio4" type="radio" id="p42" value="0" />
+                <label for="p42">1965</label>
+                <input name="radio4" type="radio" id="p43" value="1" />
+                <label for="p43">1973</label>
+
+              </div>
+              <div class="test">
+                <h5>La domótica permite...</h5>
+
+                <input name="radio5" type="radio" id="p51" value="0" />
+                <label for="p51">Hacer compras de manera remota</label>
+                <input name="radio5" type="radio" id="p52" value="1" />
+                <label for="p52">Mayor comodidad y seguridad</label>
+                <input name="radio5" type="radio" id="p53" value="0" />
+                <label for="p53">Pintar las paredes de una habitación virtualmente</label>
+
+              </div>
+
+              <input type="submit" id="enviar" class="waves-effect waves-light btn" value="Evaluar">
+            </form>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <div class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Domótica</h5>
+                <p class="grey-text text-lighten-4">Tu casa inteligente, solución para el futuro.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Contenido</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="introduccion.html">Introducción</a></li>
+                  <li><a class="grey-text text-lighten-3" href="resena.html">Reseña</a></li>
+                  <li><a class="grey-text text-lighten-3" href="importancia.html">Importancia</a></li>
+                  <li><a class="grey-text text-lighten-3" href="actualidad.html">Actualidad</a></li>
+                  <li><a class="grey-text text-lighten-3" href="contacto.html">Contacto</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="ir-arriba"><i class="material-icons">keyboard_arrow_up</i>Go to top</div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+              <p class="grey-text text-lighten-4 center">Copyright © 2016 Domotica. Derechos Reservados</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

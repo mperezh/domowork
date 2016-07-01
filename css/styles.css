@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #EEE;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*### BANNER ###*/
+.banner {
+  height: 300px;
+}
+  #bg1 {
+    background-image: url('../img/home.jpg');
+    background-position: 30% 25%;
+  	background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+  }
+  #bg2 {
+    background-image: url('../img/banner1.jpg');
+    background-position: 30% 25%;
+  	background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+  }
+  #bg3 {
+    background-image: url('../img/banner2.jpg');
+    background-position: 30% 25%;
+  	background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+  }
+  #bg4 {
+    background-image: url('../img/banner3.jpg');
+    background-position: 30% 55%;
+  	background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+  }
+  #bg5 {
+    background-image: url('../img/banner4.jpg');
+    background-position: 30% 20%;
+  	background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+  }
+  #bg6 {
+    background-image: url('../img/banner5.jpg');
+    background-position: 30% 20%;
+  	background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+  }
+  #bg7 {
+    background-image: url('../img/parallax1.jpg');
+    background-position: 30% 20%;
+  	background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+  }
+
+/*### FECHA ###*/
+#fecha {
+  position: absolute;
+  z-index: 1000;
+  color: #FFF;
+}
+
+/*### MENÚ ###*/
+.nav-wrapper {
+  background: #00529F;
+}
+
+/*### CONTENIDO PRINCIPAL ###*/
+#presentacion h3 {
+  font-weight: 700;
+}
+#presentacion p {
+  font-size: 1.5em;
+}
+
+#cards .card-image {
+  max-width: 200px;
+  margin: auto;
+}
+.card-content p {
+  text-align: center;
+  font-size: 2em;
+}
+
+#informacion {
+  padding: 3em 0;
+}
+  #informacion h5 {
+    font-weight: 500;
+    border-bottom: 1px solid #A2214B;
+  }
+  #informacion p {
+    font-size: 1.1em;
+  }
+  #informacion .img {
+    height: 200px;
+    background-position: 35%;
+  	background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+  }
+    #estilo {
+      background-image: url('../img/estilo.jpg');
+    }
+    #control {
+      background-image: url('../img/control.jpg');
+    }
+    #comodidad {
+      background-image: url('../img/comodidad.jpg');
+    }
+
+/*### TRIVIA ###*/
+.test {
+  padding-bottom: 25px;
+}
+
+/*### PIE DE PÁGINA ###*/
+.page-footer {
+  background-color: #00529F;
+}
+  .ir-arriba {
+    cursor: pointer;
+    color: #FFF;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .footer-copyright {
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+  }
+/*AZUL #00529F*/
+/*GRANA #A2214B  162,33,75*/

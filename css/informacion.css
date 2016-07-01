@@ -1,0 +1,36 @@
+#contenido span p {
+  padding: 20px 0;
+}
+#contenido p {
+  text-align: justify;
+  font-size: 1.2em;
+}
+#contenido .img {
+  height: 200px;
+  background-position: 35%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+  #contenido #introduccion1 {
+    background-image: url('../img/introduccion1.jpg');
+  }
+  #contenido #introduccion2 {
+    background-image: url('../img/introduccion2.jpg');
+  }
+  #contenido #introduccion3 {
+    background-image: url('../img/introduccion3.jpg');
+  }
+#contenido .video {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.parallax-container {
+  height: 250px !important;
+}
+
+form {
+  padding: 20px 0;
+}
